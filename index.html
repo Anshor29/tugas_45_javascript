@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tugas 45 Javascript</title>
+  </head>
+  <body>
+
+    <button type="button" onclick="jalan()" name="button">Tampilkan Href location</button>
+    <p id="tampil"></p>
+
+    <script type="text/javascript">
+      function jalan() {
+        var a = location.href;
+        document.getElementById('tampil').innerHTML = "href location : "+ a;
+      }
+
+    </script>
+
+  </body>
+</html>
